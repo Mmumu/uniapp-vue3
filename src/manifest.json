@@ -1,6 +1,6 @@
 {
-    "name" : "hello",
-    "appid" : "__UNI__4DCD124",
+    "name" : "uniapp-vue3",
+    "appid" : "wx1b77d3569b2dd7fa",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -50,7 +50,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wx1b77d3569b2dd7fa",
         "setting" : {
             "urlCheck" : false
         },

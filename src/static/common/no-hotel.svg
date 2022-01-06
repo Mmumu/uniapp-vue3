@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="185px" height="140px" viewBox="0 0 185 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>暂无门店</title>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#F8FAFC" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#ECEFF4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="99.9796204%" x2="50%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#DFE2E5" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#EEF4FE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="99.9796204%" x2="50%" y2="0.0141858142%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.513428588" offset="0%"></stop>
+            <stop stop-color="#C4D4EA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="99.9796204%" x2="50%" y2="0.0141858142%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0.513428588" offset="0%"></stop>
+            <stop stop-color="#C4D4EA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="99.9796204%" x2="50%" y2="0.0141858142%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0.513428588" offset="0%"></stop>
+            <stop stop-color="#C4D4EA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#EAEFF7" offset="0%"></stop>
+            <stop stop-color="#CDDAED" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#EAEFF7" offset="0%"></stop>
+            <stop stop-color="#CDDAED" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#EEF2F8" offset="0%"></stop>
+            <stop stop-color="#E9F2FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#EAEFF7" offset="0%"></stop>
+            <stop stop-color="#CDDAED" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="-c端app酒店" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="门店列表-无" transform="translate(-95.000000, -343.000000)">
+            <g id="暂无门店" transform="translate(95.000000, 343.000000)">
+                <g transform="translate(9.000000, 0.000000)">
+                    <path d="M86.0018969,111.445762 C126.413567,111.445762 166,119.189852 166,76.7834977 C166,34.3771429 128.839634,1.13686838e-14 83,1.13686838e-14 C37.1603658,1.13686838e-14 0,34.3771429 0,76.7834977 C0,119.189852 45.5902266,111.445762 86.0018969,111.445762 Z" id="椭圆形" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.603386289"></path>
+                    <ellipse id="椭圆形" fill="url(#linearGradient-2)" fill-rule="nonzero" opacity="0.603386289" cx="83" cy="83.1855534" rx="53.535" ry="20.6059735"></ellipse>
+                    <path d="M106.196824,31.0602615 C104.239105,31.0602615 102.652059,29.4887349 102.652059,27.5501587 C102.652059,25.6115825 104.239105,24.040056 106.196824,24.040056 C108.154544,24.040056 109.741589,25.6115825 109.741589,27.5501587 C109.741589,28.4810958 109.368124,29.3739042 108.703352,30.0321762 C108.038579,30.6904481 107.136954,31.0602615 106.196824,31.0602615 Z" id="路径" fill="url(#linearGradient-3)" fill-rule="nonzero"></path>
+                    <path d="M46.7169897,52.8708 C42.8015505,52.8708 39.6274598,49.727747 39.6274598,45.8505945 C39.6274598,41.9734421 42.8015504,38.830389 46.7169896,38.830389 C50.6324288,38.830389 53.8065195,41.973442 53.8065195,45.8505944 C53.8007224,49.7253667 50.6300251,52.8650596 46.7169897,52.8708 Z" id="路径" fill="url(#linearGradient-4)" fill-rule="nonzero"></path>
+                    <path d="M71.0460567,98.7235743 C68.7327075,98.7305958 66.643185,97.3561189 65.7529681,95.2417816 C64.8627511,93.1274443 65.3474068,90.6902324 66.980677,89.0679413 C68.6139472,87.4456502 71.0737212,86.9582253 73.2116707,87.8332175 C75.3496203,88.7082096 76.7441137,90.7730544 76.7441137,93.0637936 C76.7409142,96.1814845 74.1945099,98.7107715 71.0460567,98.7235743 L71.0460567,98.7235743 Z" id="路径" fill="url(#linearGradient-5)" fill-rule="nonzero"></path>
+                    <g id="编组" transform="translate(50.581548, 31.200000)">
+                        <rect id="矩形备份" fill="url(#linearGradient-6)" fill-rule="nonzero" x="6.35565036" y="0" width="42.5024155" height="8.8" rx="1.6"></rect>
+                        <rect id="矩形备份-8" fill="url(#linearGradient-7)" fill-rule="nonzero" x="8.76144746" y="8.8" width="37.6908213" height="44" rx="1.6"></rect>
+                        <path d="M20.7865682,36 L34.4271479,36 C35.3108035,36 36.0271479,36.7163444 36.0271479,37.6 L36.0271479,52.8 L36.0271479,52.8 L19.1865682,52.8 L19.1865682,37.6 C19.1865682,36.7163444 19.9029126,36 20.7865682,36 Z" id="矩形备份-2" fill="url(#linearGradient-8)" fill-rule="nonzero"></path>
+                        <line x1="26.8049257" y1="38.8" x2="21.9933315" y2="43.6" id="直线" stroke="#C4D4EA" stroke-width="0.8" stroke-linecap="round"></line>
+                        <line x1="30.8145876" y1="47.6" x2="28.2712008" y2="50.1372581" id="直线备份-2" stroke="#C4D4EA" stroke-width="0.8" stroke-linecap="round"></line>
+                        <line x1="24.3991286" y1="38.8" x2="22.4227937" y2="40.7715727" id="直线备份" stroke="#C4D4EA" stroke-width="0.8" stroke-linecap="round"></line>
+                        <line x1="33.2203847" y1="47.6" x2="28.4087905" y2="52.4" id="直线备份-3" stroke="#C4D4EA" stroke-width="0.8" stroke-linecap="round"></line>
+                        <line x1="0" y1="52.8" x2="70.5700483" y2="52.8" id="直线-4" stroke="#C4D4EA" stroke-width="1.6" stroke-linecap="round"></line>
+                        <line x1="59.6841528" y1="38.4" x2="59.6841528" y2="52.8" id="直线-4备份" stroke="#C4D4EA" stroke-width="1.6" stroke-linecap="round"></line>
+                        <ellipse id="椭圆形" fill="url(#linearGradient-9)" fill-rule="nonzero" cx="59.6841528" cy="30" rx="8.42028986" ry="8.4"></ellipse>
+                        <rect id="矩形" fill="#C4D4EA" x="15.1769064" y="16" width="8.82125604" height="4" rx="2"></rect>
+                        <rect id="矩形备份-4" fill="#C4D4EA" x="15.1769064" y="24" width="8.82125604" height="4" rx="2"></rect>
+                        <rect id="矩形备份-3" fill="#C4D4EA" x="31.2155537" y="16" width="8.82125604" height="4" rx="2"></rect>
+                        <rect id="矩形备份-5" fill="#C4D4EA" x="31.2155537" y="24" width="8.82125604" height="4" rx="2"></rect>
+                    </g>
+                </g>
+                <text id="该地区暂无门店，换个城市试试吧" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" line-spacing="12" letter-spacing="0.3" fill="#B2B2B6">
+                    <tspan x="0" y="141">该地区暂无门店，换个城市试试吧</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

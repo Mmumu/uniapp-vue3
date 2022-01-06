@@ -1,0 +1,59 @@
+// 呼吸
+@keyframes breathe {
+  0% {
+    box-shadow: 0 1px 1px rgba(0, 147, 223, 0.4),
+      0 1px 1px rgba(0, 147, 223, 0.1) inset;
+    opacity: 0.4;
+  }
+
+  100% {
+    box-shadow: 0 1px 10px #b9b4c1, 0 1px 10px #b9b4c1 inset;
+    opacity: 1;
+  }
+}
+
+// 淡入
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// 淡入
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+// 省略号
+@keyframes dotAnimate {
+  0%,
+  100% {
+    content: '';
+  }
+  25% {
+    content: '.';
+  }
+  50% {
+    content: '..';
+  }
+  100% {
+    content: '...';
+  }
+}
+
+@keyframes ellipsis {
+  from {
+    width: 2px;
+  }
+  to {
+    width: 18px;
+  }
+}

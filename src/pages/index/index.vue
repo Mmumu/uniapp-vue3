@@ -14,7 +14,6 @@ console.log(title, "title")
 
 import { onLoad, onShow } from "@dcloudio/uni-app";
 onShow(() => {
-  console.log('hhhh')
 })
 </script>
 

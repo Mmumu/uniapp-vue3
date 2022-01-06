@@ -44,6 +44,13 @@
     "@dcloudio/uni-mp-toutiao": "^3.0.0-alpha-3030520211229002",
     "@dcloudio/uni-mp-weixin": "^3.0.0-alpha-3030520211229002",
     "@dcloudio/uni-quickapp-webview": "^3.0.0-alpha-3030520211229002",
+    "dayjs": "^1.10.7",
+    "js-md5": "^0.7.3",
+    "mini-types": "^0.1.7",
+    "miniprogram-api-typings": "^3.4.4",
+    "qs": "^6.10.2",
+    "sass": "^1.46.0",
+    "umtrack-wx": "^2.7.1",
     "vue": "^3.2.26",
     "vue-i18n": "^9.1.9",
     "vuex": "^4.0.2"

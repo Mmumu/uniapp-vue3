@@ -1,0 +1,137 @@
+// 主题色
+$themeColor: #ea552d;
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@mixin flex-ybetween {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@mixin flex-sBetween {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+@mixin flex-ycenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-alignEnd {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+@mixin flex-yleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin flex-align {
+  display: flex;
+  align-items: center;
+}
+
+@mixin setLinearBg {
+  background: linear-gradient(to right, #4e2ffe, #a45fff);
+}
+
+@mixin fs($size) {
+  font-size: ($size * 2) + rpx;
+}
+
+@function setRpx($px) {
+  @return $px * 2 + rpx;
+}
+
+@mixin text-ellipsis($line) {
+  display: -webkit-box;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+}
+
+@mixin dashedLine {
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    content: '';
+    background: linear-gradient(
+      to right,
+      #4b4b54,
+      #4b4b54 1px,
+      transparent 1px,
+      transparent
+    );
+    background-size: 3px 100%;
+    transform: scaleY(0.5);
+  }
+}
+
+@mixin scale1px($color, $type) {
+  position: relative;
+  border: none;
+  &::after {
+    position: absolute;
+    content: '';
+    background: $color;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    @if $type==bottom {
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      -webkit-transform: scaleY(0.5);
+      transform: scaleY(0.5);
+    } @else if $type==top {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      -webkit-transform: scaleY(0.5);
+      transform: scaleY(0.5);
+    } @else if $type==left {
+      left: 0;
+      width: 1px;
+      height: 100%;
+      -webkit-transform: scaleX(0.5);
+      transform: scaleX(0.5);
+    } @else if $type==right {
+      right: 0;
+      width: 1px;
+      height: 100%;
+      -webkit-transform: scaleX(0.5);
+      transform: scaleX(0.5);
+    }
+  }
+}
