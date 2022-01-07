@@ -1,8 +1,8 @@
 import { onLaunch } from '@dcloudio/uni-app';
  <script lang="ts">
+import Monitor from '@/utils/monitor'
 import { tiny } from '@/tiny/tiny'
 import { refreshToken } from '@/api/common-api'
-// const app = getApp()
  export default {
   globalData: {
     statusBar: 0,
@@ -10,7 +10,6 @@ import { refreshToken } from '@/api/common-api'
     customBar: 0,
   },
   onLaunch() {
-    // console.log(app, "appLaunch~~~")
     uni.setStorageSync('token', '93272abf-8aff-41b1-b657-4a5bd8fc4e61')
     console.log(this, 'onLaunch~~~')
     const token = uni.getStorageSync('token')
@@ -48,7 +47,14 @@ import { refreshToken } from '@/api/common-api'
       })
     }
     getSystem()
-  }
+  },
+  onError(err: any) {
+    Monitor.error(err)
+  },
+
+  onShow() {
+    Monitor.pageShow()
+  },
 }
  </script>
 <style></style>
