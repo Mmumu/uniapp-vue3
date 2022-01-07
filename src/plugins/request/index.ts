@@ -1,4 +1,4 @@
-import { MiniAppType } from '../../config/enum'
+import { MiniAppType } from '@/config/enum'
 import LsxmRequest from './LsxmRequest'
 import qs from 'qs'
 

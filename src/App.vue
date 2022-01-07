@@ -1,7 +1,7 @@
 import { onLaunch } from '@dcloudio/uni-app';
  <script lang="ts">
-import { tiny } from './tiny/tiny'
-import { refreshToken } from './api/common-api'
+import { tiny } from '@/tiny/tiny'
+import { refreshToken } from '@/api/common-api'
 // const app = getApp()
  export default {
   globalData: {

@@ -1,11 +1,12 @@
 import { createSSRApp } from "vue";
 import App from "./App.vue";
 // import Store from "./store/index"
-import Custom from './components/custom/Custom.vue'
+import Custom from '@/components/custom/Custom.vue'
+console.log(Custom, "custommmmm")
 import uma from './plugins/uma'
-import Global from './plugins/global'
-import Methods from './plugins/methods'
-import globalMixin from './mixin/globalMixin'
+import Global from '@/plugins/global'
+import Methods from '@/plugins/methods'
+import globalMixin from '@/mixin/globalMixin'
 export function createApp() {
   const app = createSSRApp(App);
   // app.use(Store)

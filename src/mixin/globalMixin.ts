@@ -1,4 +1,4 @@
-import { vipLogin } from '../api/common-api'
+import { vipLogin } from '@/api/common-api'
 const WEEK_LIST = [
   '周日',
   '周一',

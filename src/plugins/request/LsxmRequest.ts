@@ -1,5 +1,5 @@
-import { baseUrl } from '../../config'
-import Monitor from '../../utils/monitor'
+import { baseUrl } from '@/config'
+import Monitor from '@/utils/monitor'
 
 const config = Symbol('config')
 const isCompleteURL = Symbol('isCompleteURL')

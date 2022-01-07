@@ -1,5 +1,5 @@
-import lsxmRequest from '../../plugins/request'
-import { VIP_URL, BDW_USER_URL } from '../../config'
+import lsxmRequest from '@/plugins/request'
+import { VIP_URL, BDW_USER_URL } from '@/config'
 console.log(VIP_URL, "VIP_URL")
 console.log(BDW_USER_URL, "BDW_USER_URL")
 /**
