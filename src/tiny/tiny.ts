@@ -2,8 +2,8 @@ import { isBrowserSupportWebp } from './isBrowserSupportWebp'
 import { isWechatSupportWebp } from './isWechatSupportWebp'
 
 let _globalThis: any
-
-const isProd = process.env.NODE_ENV === 'production'
+// const isProd = process.env.NODE_ENV === 'production'
+const isProd = import.meta.env.NODE_ENV === 'production'
 console.info(`[tiny]`, 'isProd', isProd)
 
 interface UrlOptions {

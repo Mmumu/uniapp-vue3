@@ -3,7 +3,7 @@ import { onLaunch } from '@dcloudio/uni-app';
 import Monitor from '@/utils/monitor'
 import { tiny } from '@/tiny/tiny'
 import { refreshToken } from '@/api/common-api'
- export default {
+export default {
   globalData: {
     statusBar: 0,
     custom: {},

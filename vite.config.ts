@@ -10,6 +10,10 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src")
     }
   },
+  envPrefix: ['VUE_APP_BL', 'NODE_ENV'],
+  define: {
+    'process.env': JSON.stringify('development')
+  },
   css: {
     preprocessorOptions: {
       scss: {
