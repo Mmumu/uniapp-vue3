@@ -63,6 +63,11 @@
       "style": {
         "navigationStyle": "custom"
       }
+    }, {
+      "path": "modules/hotel/views/hotel-list/HotelList",
+      "style": {
+        "navigationStyle": "custom"
+      }
     }
   ],
   "condition": {
