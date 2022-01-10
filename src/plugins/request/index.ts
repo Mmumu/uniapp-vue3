@@ -47,6 +47,7 @@ lsxmRequest.interceptors.response((response: any) => {
     uni.removeStorageSync('token')
     uni.removeStorageSync('userInfo')
   }
+  if (response.data.code === 1) response.data.code = 200
   return response
 })
 

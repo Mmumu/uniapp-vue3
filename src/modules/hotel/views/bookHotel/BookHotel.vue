@@ -439,10 +439,10 @@ export default {
         position: absolute;
         bottom: 0;
         left: 50%;
-        // width: 686rpx;
-        // height: 426rpx;
-        width: 590rpx;
-        height: 366rpx;
+        width: 686rpx;
+        height: 426rpx;
+        // width: 590rpx;
+        // height: 366rpx;
         padding: 24rpx 48rpx 36rpx;
         margin-left: -343rpx;
         background-color: #fff;

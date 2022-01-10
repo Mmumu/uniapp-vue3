@@ -1,4 +1,3 @@
-import { onLaunch } from '@dcloudio/uni-app';
  <script lang="ts">
 import Monitor from '@/utils/monitor'
 import { tiny } from '@/tiny/tiny'
